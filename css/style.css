@@ -37,7 +37,6 @@ body {
 section {
   max-width: 800px;
   margin: 70px auto 20px;
-  /* Adjust margin to make room for the fixed navigation bar */
   padding: 20px;
   background-color: #fddbfb;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -80,7 +79,6 @@ strong {
 a {
   text-decoration: none;
   color: whitesmoke;
-
 }
 
 #resume section ul {
@@ -100,4 +98,24 @@ a {
 /* image list without "." */
 .imgul {
   list-style: none;
+}
+
+#chengdu ul li{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#chengdu p{
+  text-align: center;
+}
+
+#resume h2{
+  margin-bottom: 20px;
+}
+
+.back{
+  margin-right: 10px;
+  background-color: chocolate;
 }
