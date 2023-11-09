@@ -6,9 +6,13 @@ body {
   border-top: 10px solid #0c0e0e;
   background-image:url('../images/background.jpg');
   background-size: cover;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #nav {
+  text-align: center;
   margin: 25px auto;
   height: 40px;
   background-color: #690;
@@ -16,31 +20,36 @@ body {
 
 #nav ul {
   list-style: none;
-  margin-left: 50px;
+  padding: 0;
+  margin: 0;
 }
 
 #nav li {
   display: inline;
+  margin-right: 20px;
 }
 
 #nav a {
   line-height: 40px;
-  color: #fff;
+  color: #f104ba;
   text-decoration: none;
-  padding: 20px 250px;
+  padding: 20px 40px;
+  margin: 40px 40px;
+  font-size: x-large;
 }
 
 #nav a:hover {
   background-color: #060;
+  text-shadow: 4px 3px 1px rgba(47, 0, 135, 0.761) ;
 }
 
 section {
-  max-width: 800px;
-  margin: 70px auto 20px;
-  padding: 20px;
+  max-width: 90%;
+  margin: 5% auto;
+  padding: 2rem;
   background-color: #fddbfb;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 
 h1,h2 {
@@ -118,4 +127,18 @@ a {
 .back{
   margin-right: 10px;
   background-color: chocolate;
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+}
+
+ul.imgul {
+  text-align: center;
+}
+
+section iframe {
+  display: block;
+  margin: 0 auto;
 }
